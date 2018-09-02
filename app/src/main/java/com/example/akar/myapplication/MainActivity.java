@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, minTime,0,locationListener);
             statusText.append("Location Updates will come " + " Minimum Time: " + minTime + " Minimum Distance: " +  minDistance  + "\n");
             System.out.println("Location Updates will come");
+
+
+
+
             }
     }
 
