@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.akar.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gps_recorder"
+        android:textSize="@dimen/gpsRecorderDimension"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="startRecordingGPS"
+        android:text="@string/startRecordingGpsText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/startRecordingButton"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopRecordingButtonText"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:onClick="stopRecordingGPS"
+        android:id="@+id/stopRecordingButton"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listRecordingsButtonText"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:id="@+id/listOfRecordings"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/optionsButtonText"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:id="@+id/optionsButton"
+        />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:text="@string/gps_recorder"
+            android:textSize="@dimen/statusTextDimension"
+            android:textStyle="bold"
+            android:scrollbars = "vertical"
+            />
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+

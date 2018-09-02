@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="stopRecordingButtonText">STOP RECORDING GPS</string>
+    <string name="startRecordingGpsText">START RECORDING GPS</string>
+    <string name="optionsButtonText">OPTIONS</string>
+    <string name="listRecordingsButtonText">LIST OF RECORDINGS</string>
+    <string name="gps_recorder">GPS Recorder</string>
+</resources>
