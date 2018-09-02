@@ -27,9 +27,6 @@ public class MyLocationListener implements LocationListener {
         System.out.println("Longitude: " + longitude +   " Latitude: "  + latitude + "\n");
         statusText.append("Longitude: " + longitude +   " Latitude: "  + latitude + "\n");
         statusText.append("Longitude: " + longitude +   " Latitude: "  + latitude + "\n");
-
-
-
     }
 
     @Override
