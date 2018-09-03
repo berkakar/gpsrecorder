@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         locationManager.removeUpdates(locationListener);
         locationListener = null;
         locationManager = null;
+        
     }
 
     private void disableOrEnableTheButton(Button buttonToBeDisabled, boolean enabledTrue){
